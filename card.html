@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card details</title>
+    <link rel="stylesheet" href="card.css">
+    <script  defer src="card.js"></script>
+    <script src="https://kit.fontawesome.com/12591c9758.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="section">
+    <div class="col-md-6">
+        <div id="error"></div>
+       <div class="card pic">
+        <img src="bg-card-front.png" alt=""><br>
+        <img src="bg-card-back.png" alt="">
+       </div>
+    </div>
+  
+    <div class="col-md-6">
+        <form class="form" id="form">
+          <div class="form-control">
+            <label>CARDHOLDER NAME</label>
+            <input type="text" placeholder="e.g. Jane Appleseed"
+            id="name">
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>Error message</small>
+          </div>
+
+
+          <div class="form-control">
+            <label>CARD NUMBER</label>
+            <input type="text" placeholder="e.g. 1234 5678 9123 0000"
+            id="cardno">
+            <i class="fa-solid fa-circle-check"></i>
+            <i class="fa-solid fa-circle-exclamation"></i>
+            <small>Error message</small>
+          </div>
+
+
+          <div class="form-control">
+            <label>EXP.DATE {MM/YY} </label><br>
+            <input type="pin" placeholder="MM"
+            id="mm">
+            <input type="pin" placeholder="YY"
+            id="yy">
+            <!-- <label>cvc</label> -->
+            <input type="pin1" placeholder="e.g. 123"
+            id="cvc">
+            <!-- <small>Error message</small> -->
+          </div>
+          
+
+          <button>Confirm</button>
+
+         </form>
+    </div>
+
+       
+    
+
+   
+</body>
+</html>
+<!-- <div class="dform">
+    <form id="form"  method="get">
+        <div class="cardsuccess">
+            <label for="fname">CARDHOLDER NAME</label><br>
+         <input  id="fname" name="fname" type="text" placeholder="e.g. Jane Appleseed"><br><br>
+         <small>Error message</small>
+        </div>
+        
+       
+         
+        <div class="passworderror">
+            <label for="cardno">CARD NUMBER</label><br>
+         <input type="text" id="cardno" name="cardno" placeholder="e.g. 1234 5678 9123 0000"><br><br>
+        </div>
+
+    
+        <label for="pin">EXP. DATE {MM/YY} &nbsp;&nbsp;cvc</label><br>
+        <input type="pp" id="pin" name="firstname" placeholder="MM">
+        <input type="pp" id="pin" name="firstname" placeholder="YY">
+    
+        
+        <input type="ppp" id="pin" name="firstname" placeholder="e.g. 123"><br><br>
+       <button type="submit">confirm</button>
+    
+    </form>
+</div>
+</div>
+</div>  -->
